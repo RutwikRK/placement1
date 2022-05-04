@@ -1,0 +1,41 @@
+.jumbo{
+    margin:5%;
+    
+}
+body{
+    background-image: url(../image/image11.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.row{
+    color:white;
+    font-size: large;
+   
+    margin-top: 5%;
+}
+.row .col-md-8 p{
+    background-color: black;
+    border:5px white solid;
+    padding:10px;
+}
+.row .col-md-4 p{
+    background-color: black;
+    border:5px white solid;
+    padding:10px;
+}
+.panel-footer .row .col-md-7 p{
+color:black;
+}
+.panel-footer{
+    
+    background-repeat: no-repeat;
+    
+}
+
+.panel-footer h2{
+    color:black;
+}
+.panel-footer .row .col-md-7 p img{
+    align-items: center;
+    margin-left:70%;
+}

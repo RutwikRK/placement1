@@ -1,0 +1,18 @@
+.message{
+    
+    font-size: 75px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.success{
+    
+    font-size: 23px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image:url(../image/image8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

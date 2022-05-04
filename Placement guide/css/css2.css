@@ -1,0 +1,148 @@
+
+.dropdown{
+    padding-top:0%;
+    margin-left:600px;
+    margin-top:0px;
+    padding-top:0px;
+}
+#para{
+    font-size:16px;
+   
+}
+.rrr{
+    padding:0px;
+}
+
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle { 0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  body {
+    background: #000;
+    
+  }
+  
+  button {
+    position: relative;
+    left: calc(5% - 2em);
+    top: calc(50% - 3em);
+    
+    height: 4em;
+    width: 9em;
+    
+    
+    background:black;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 4px solid orange;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+  }
+  button a:hover{
+      color:white;
+  }
+  button a:visited{
+      color:white;
+  }
+
+  nav{
+      padding:10px;
+      font-size: 1.5em;
+  }
+  .i{
+    margin-left: 30%;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.panel .panel-body .row .col-md-3{
+  background-color: #000;
+  color:white;
+  border-right: 2px solid white;
+}
+.panel{
+  background-color: rgb(23, 4, 4);
+}
